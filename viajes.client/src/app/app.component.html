@@ -1,0 +1,31 @@
+
+<body>
+  <div ng-controller="ViajesController">
+    <h2>Viajes</h2>
+    <table>
+      <thead>
+        <tr>
+          <th><a href="#Des">Destino&#9660;</a></th>
+          <th><a href="#Fec">Fecha&#9660;</a></th>
+          <th><a href="#Cli">Clima&#9660;</a></th>
+          <th>Tipo de Vehículo</th>
+          <th>Opciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let viaje of listaViajes">
+          <td>{{ viaje.destino }}</td>
+          <td>{{ viaje.fecha }}</td>
+          <td>{{ viaje.clima }}</td>
+          <td>{{ viaje.CodigoVehiculo }}</td>
+          <td>
+            <button class="button danger" ng-click="eliminarViaje(viaje)">Eliminar</button>
+            <button class="button secondary" ng-click="reprogramarViaje(viaje)">Reprogramar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button class="button primary" g-click="mostrarFormulario()">Crear Nuevo Viaje</button>
+  </div>
+</body>

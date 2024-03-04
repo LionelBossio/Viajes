@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viajes.Server", "Viajes.Server\Viajes.Server.csproj", "{DEF4688D-6A74-406C-AAF2-1665C613FBF7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "viajes.client", "viajes.client\viajes.client.esproj", "{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEF4688D-6A74-406C-AAF2-1665C613FBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF4688D-6A74-406C-AAF2-1665C613FBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF4688D-6A74-406C-AAF2-1665C613FBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF4688D-6A74-406C-AAF2-1665C613FBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F4E05F-707E-47BB-AF1E-197E8D4AB8E9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1974AC4C-6E0E-452A-B707-DDC0FF389F47}
+	EndGlobalSection
+EndGlobal
